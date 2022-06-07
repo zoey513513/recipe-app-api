@@ -26,7 +26,7 @@ RUN python -m venv /py && \
         --disabled-password \
         --no-create-home \
         django-user
-ENV PATH "$PATH:/py/bin"
+# ENV PATH "$PATH:/py/bin"
 ENV PATH="/py/bin:$PATH"
 
 USER django-user
