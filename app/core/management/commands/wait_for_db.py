@@ -6,7 +6,7 @@ import time
 from psycopg2 import OperationalError as Psycopg2OpError
 
 from django.db.utils import OperationalError
-# from lib2to3.pytree import Base
+from lib2to3.pytree import Base # noqa
 from django.core.management.base import BaseCommand
 
 
